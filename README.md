@@ -1,4 +1,4 @@
-👋 Hi, I’m Sambodhi, a student at IIITM, Gwalior studying B.Tech in Mathematics and Scientific Computing .
+👋 Hi, I’m Meet, a student at IIITM, Gwalior studying B.Tech in Information Technology.
 💫 About Me:
 🔭 Currently building MVPs for web-based projects and actively competing in competitive programming contests
 👯 Open to collaborating on impactful web development and problem-solving projects
