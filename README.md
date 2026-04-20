@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on  <br>- Building strong fundamentals in Machine Learning  <br>- Practicing Data Structures & Algorithms for problem solving  <br><br>👯 I’m looking to collaborate on  <br>- ML-based projects  <br>- Algorithmic / C++ projects  <br>- Open-source beginner-friendly contributions  <br><br>🤝 I’m looking for help with  <br>- Turning ML concepts into real-world projects  <br>- Improving efficiency in problem solving  <br><br>
+🔭 I’m currently working on  <br>- Building strong fundamentals in Machine Learning  <br>- Practicing Data Structures & Algorithms for problem solving  <br><br>👯 I’m looking to collaborate on  <br>- ML-based projects  <br>- Algorithmic / C++ projects  <br>- Open-source beginner-friendly contributions
 
 
 # 💻 Tech Stack:
