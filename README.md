@@ -1,11 +1,23 @@
-👋 Hi, I’m Meet, a student at IIITM, Gwalior studying B.Tech in Information Technology.
-💫 About Me:
-🔭 Currently building MVPs for web-based projects and actively competing in competitive programming contests
-👯 Open to collaborating on impactful web development and problem-solving projects
-🤝 Looking to contribute to open source and learn from experienced developers
-🌱 Exploring backend systems, data structures, and diving into machine learning
-💬 Ask me about DSA, competitive programming, or anything related to web development
-⚡ Fun fact: I am really great football player.
+<h1 align="center">👋 Hi, I'm Meet</h1>
+<h3 align="center">💻 IT Student @ IIITM Gwalior | Competitive Programmer | Web Developer</h3>
+
+<p align="center">
+  <a href="https://github.com/meetcodz">
+    <img src="https://komarev.com/ghpvc/?username=meetcodz&label=Profile%20views&color=0e75b6&style=flat" alt="profile views"/>
+  </a>
+</p>
+
+---
+
+## 🚀 About Me
+
+- 🔭 Building MVPs for web-based products  
+- ⚡ Actively participating in Competitive Programming contests  
+- 👯 Open to collaborating on web dev & problem-solving projects  
+- 🤝 Exploring open source contributions  
+- 🌱 Learning backend systems & machine learning  
+- 💬 Ask me about **DSA, CP, Web Dev**  
+- ⚽ Fun fact: I’m a really good football playe
 
 
 # 💻 Tech Stack:
