@@ -1,5 +1,11 @@
-# 💫 About Me:
-🔭 I’m currently working on  <br>- Building strong fundamentals in Machine Learning  <br>- Practicing Data Structures & Algorithms for problem solving  <br><br>👯 I’m looking to collaborate on  <br>- ML-based projects  <br>- Algorithmic / C++ projects  <br>- Open-source beginner-friendly contributions
+👋 Hi, I’m Sambodhi, a student at IIITM, Gwalior studying B.Tech in Mathematics and Scientific Computing .
+💫 About Me:
+🔭 Currently building MVPs for web-based projects and actively competing in competitive programming contests
+👯 Open to collaborating on impactful web development and problem-solving projects
+🤝 Looking to contribute to open source and learn from experienced developers
+🌱 Exploring backend systems, data structures, and diving into machine learning
+💬 Ask me about DSA, competitive programming, or anything related to web development
+⚡ Fun fact: I am really great football player.
 
 
 # 💻 Tech Stack:
