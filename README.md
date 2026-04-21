@@ -17,7 +17,7 @@
 - 🤝 Exploring open source contributions  
 - 🌱 Learning backend systems & machine learning  
 - 💬 Ask me about **DSA, CP, Web Dev**  
-- ⚽ Fun fact: I’m a really good football playe
+- ⚽ Fun fact: I’m a really good football player
 
 
 # 💻 Tech Stack:
