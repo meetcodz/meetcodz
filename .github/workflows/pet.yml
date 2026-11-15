@@ -1,8 +1,6 @@
 name: YourTomo Pet
 
 on:
-  push:
-    branches: [main]
   schedule:
     - cron: '23 */6 * * *'
   workflow_dispatch:
@@ -19,3 +17,4 @@ jobs:
         with:
           username: meetcodz
           timezone-offset-minutes: "330"
+          token: ${{ secrets.GITHUB_TOKEN }}
