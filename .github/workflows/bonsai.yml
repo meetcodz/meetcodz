@@ -1,8 +1,10 @@
 name: Git Bonsai
 
 on:
+  push:
+    branches: [main]
   schedule:
-    - cron: '0 3 * * *' # Grows daily
+    - cron: '0 3 * * *'
   workflow_dispatch:
 
 permissions:
