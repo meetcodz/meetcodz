@@ -1,42 +1,137 @@
-<h1 align="center">👋 Hi, I'm Meet</h1>
-<h3 align="center">💻 IT Student @ IIITM Gwalior | Competitive Programmer | ML Engineer</h3>
+<div align="center">
 
-<p align="center">
-  <a href="https://github.com/meetcodz">
-    <img src="https://komarev.com/ghpvc/?username=meetcodz&label=Profile%20views&color=0e75b6&style=flat" alt="profile views"/>
-  </a>
-</p>
+# Meet Modi
+
+### IT Undergrad @ ABV-IIITM Gwalior
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1500&color=7AA2F7&center=true&vCenter=true&width=650&lines=Building+Cloud-Native+Systems;Kubeflow+Open+Source+Contributor;Competitive+Programmer;Distributed+Systems+Enthusiast;Marathoner" alt="Typing SVG" />
+
+<br/><br/>
+
+<a href="https://github.com/meetcodz">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</a>
+<a href="https://linkedin.com/in/YOUR_LINKEDIN">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+<a href="mailto:YOUR_EMAIL">
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+</a>
+<a href="https://leetcode.com/YOUR_LEETCODE">
+  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+</a>
+<a href="https://codeforces.com/profile/YOUR_CODEFORCES">
+  <img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces" />
+</a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=meetcodz&color=7AA2F7&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
+
+</div>
+
+---
+
+##  About Me
+
+- 🎓 **IT Undergraduate** at **ABV-IIITM Gwalior**
+- 🌐 **Open Source Contributor** actively contributing to Cloud-Native AI and Machine Learning infrastructure (**Kubeflow**).
+- 💻 **Core Interests:** Cloud-Native Infrastructure, Distributed Systems, High-Performance Backend Engineering, and Deep Learning.
+- ⚡ **Competitive Programming:** Regular participant in Codeforces, LeetCode, and algorithmic contests.
+- 🎯 **Goal:** Contributing to ecosystem-defining open-source projects.
+- ⚽ **Fun Fact:** Big football enthusiast on and off the pitch.
 
 ---
 
-## 🚀 About Me
+##  Featured Open Source Contributions
 
-- 🔭 Building MVPs for web-based products  
-- ⚡ Actively participating in Competitive Programming contests  
-- 👯 Open to collaborating on web dev & problem-solving projects  
-- 🤝 Exploring open source contributions  
-- 🌱 Learning backend systems & machine learning  
-- 💬 Ask me about **DSA, CP, Web Dev**  
-- ⚽ Fun fact: I’m a really good football player
+### [Kubeflow](https://github.com/kubeflow)
+Cloud-Native MLOps Platform (CNCF / Linux Foundation)
 
+#### 🔹 Kubeflow Pipelines
+Repository: [kubeflow/pipelines](https://github.com/kubeflow/pipelines)
+- Enhanced backend API server logging, request tracing, and pagination stability.
+- [PR #15506](https://github.com/kubeflow/pipelines/pull/15506) — Merged
+- [PR #15507](https://github.com/kubeflow/pipelines/pull/15507) — Merged
+- [PR #15615](https://github.com/kubeflow/pipelines/pull/15615) — Merged
 
-# 💻 Tech Stack:
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Adobe Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=meetcodz&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=meetcodz&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=meetcodz&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=meetcodz&theme=dark&no-frame=false&no-bg=true&margin-w=4)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=meetcodz&limit=5&theme=dark&combine_all_yearly_contributions=true)
+#### 🔹 Kubeflow Trainer
+Repository: [kubeflow/trainer](https://github.com/kubeflow/trainer)
+- Discovered and fixed an unrecovered panic in the Workload-Aware Scheduling webhook and builder.
+  - [Issue #4450](https://github.com/kubeflow/trainer/issues/4450)
+  - [PR #4451](https://github.com/kubeflow/trainer/pull/4451)
+- Resolved `OptimizationJob` API server status patch rejection caused by duplicate `listType=map` parameter keys.
+  - [Issue #4452](https://github.com/kubeflow/trainer/issues/4452)
+  - [PR #4453](https://github.com/kubeflow/trainer/pull/4453)
 
 ---
-[![](https://komarev.com/ghpvc/?username=meetcodz&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+##  Tech Stack & Tooling
+
+<div align="center">
+
+<h4>Languages</h4>
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=cpp,c,python,go,java,ts,js" alt="Programming Languages" /></a>
+
+<h4>Cloud & Systems</h4>
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=kubernetes,docker,linux,bash,git,github" alt="Cloud and Systems" /></a>
+
+<h4>Machine Learning & Data</h4>
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=pytorch,tensorflow,scikitlearn,pandas,numpy" alt="Machine Learning and Data" /></a>
+
+<h4>Databases & Web</h4>
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,react,nodejs,tailwind" alt="Databases and Web" /></a>
+
+</div>
+
+---
+
+##  Virtual Companion & Commit Garden
+
+<div align="center">
+
+<!-- YourTomo Interactive Cat (github.com/knowprasad/YourTomo) -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/meetcodz/meetcodz/main/dist/pet.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/meetcodz/meetcodz/main/dist/pet-light.svg">
+  <img alt="YourTomo Cat Companion" src="https://raw.githubusercontent.com/meetcodz/meetcodz/main/dist/pet.svg" width="100%">
+</picture>
+
+<br/><br/>
+
+<!-- Git-Bonsai Procedural Commit Tree (github.com/egorthinks/git-bonsai) -->
+<a href="https://github.com/egorthinks/git-bonsai">
+  <img src="https://raw.githubusercontent.com/meetcodz/meetcodz/main/output/bonsai-growth.gif" width="360" alt="My Git Bonsai Tree" />
+</a>
+
+<br/>
+<sub><i>Tree grown procedurally from commit history • Cat reacts dynamically to activity and streaks</i></sub>
+
+</div>
+
+---
+
+##  GitHub Activity & Analytics
+
+<div align="center">
+
+<img height="180" src="https://github-readme-stats.shion.dev/api?username=meetcodz&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7AA2F7&text_color=C0CAF5&icon_color=7AA2F7" alt="GitHub Stats" />
+<img height="180" src="https://streak-stats.demolab.com/?user=meetcodz&theme=tokyonight&hide_border=true&background=0D1117&ring=7AA2F7&fire=FF9E64&currStreakLabel=7AA2F7" alt="GitHub Streak" />
+
+<br/><br/>
+
+<img height="165" src="https://github-readme-stats.shion.dev/api/top-langs/?username=meetcodz&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7AA2F7&text_color=C0CAF5" alt="Top Languages" />
+
+</div>
+
+---
+
+<div align="center">
+
+###  Let's Connect
+
+Open to collaborations, open-source contributions, and systems engineering opportunities.
+
+**Building. Learning. Contributing.**
+
+</div>
