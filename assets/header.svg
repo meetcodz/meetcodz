@@ -1,0 +1,324 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480"
+     role="img" aria-labelledby="t d">
+  <title id="t">Meet Modi - Developer Terminal</title>
+  <desc id="d">Two-scene looping terminal displaying About Me tech profile followed by Kubeflow open-source contributions for Meet Modi.</desc>
+
+  <style><![CDATA[
+    .bg     { fill: #0d1117 }
+    .frame  { fill: none; stroke: #30363d; stroke-width: 1 }
+    .gdot   { fill: #30363d }
+    .dot    { fill: #30363d }
+    .rule   { stroke: #21262d; stroke-width: 1 }
+    .name   { font: 700 42px ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+              fill: #f0f6fc; letter-spacing: 1.5px }
+    .sub    { font: 400 13.5px ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+              fill: #8b949e; letter-spacing: 1.3px }
+    .pr     { font: 400 14px ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; fill: #3fb950 }
+    .cmd    { font: 400 14px ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; fill: #e6edf3 }
+    .out    { font: 400 13px ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; fill: #8b949e }
+    .tiny   { font: 400 12px ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; fill: #6e7681 }
+    .ok     { fill: #3fb950 }
+    .acc    { fill: #58a6ff }
+    .warn   { fill: #d29922 }
+    .tag    { fill: #bc8cff }
+    .caret  { fill: #58a6ff }
+    .trace  { fill: none; stroke: #58a6ff; stroke-width: 2; stroke-linecap: round; stroke-dasharray: 160 2600 }
+    .sweepbar { fill: #58a6ff }
+
+    @media (prefers-color-scheme: light) {
+      .bg { fill: #ffffff } .frame { stroke: #d0d7de }
+      .gdot { fill: #d8dee4 } .dot { fill: #d0d7de } .rule { stroke: #eaeef2 }
+      .name { fill: #1f2328 } .sub { fill: #656d76 }
+      .pr { fill: #1a7f37 } .cmd { fill: #1f2328 } .out { fill: #656d76 }
+      .tiny { fill: #8c959f }
+      .ok { fill: #1a7f37 } .acc { fill: #0969da } .warn { fill: #9a6700 } .tag { fill: #8250df }
+      .caret { fill: #0969da } .trace { stroke: #0969da } .sweepbar { fill: #0969da }
+      .sA, .sB, .sD, .sE { stop-color: #0969da } .sC { stop-color: #218bff }
+    }
+
+    /* Persistent chrome animations */
+    .boot  { animation: boot .8s cubic-bezier(.2,.8,.2,1) both }
+    @keyframes boot { from { opacity: 0; transform: translateY(10px) } to { opacity: 1; transform: translateY(0) } }
+
+    .drift { animation: drift 18s linear infinite }
+    @keyframes drift { to { transform: translate(26px, 26px) } }
+
+    .trace { animation: trace 14s linear infinite }
+    @keyframes trace { to { stroke-dashoffset: -2760 } }
+
+    .shine { animation: shine 6s cubic-bezier(.4, 0, .2, 1) infinite }
+    @keyframes shine {
+      0%, 15%   { transform: translateX(-240px) }
+      50%, 100% { transform: translateX(920px) }
+    }
+
+    .sweepbar { animation: sweep 6s cubic-bezier(.4, 0, .2, 1) infinite }
+    @keyframes sweep {
+      0%, 15%   { transform: translateX(0) }
+      50%, 100% { transform: translateX(720px) }
+    }
+
+    /* 24s MASTER LOOP - TWO SCENES (12s EACH) */
+    .sc1, .tag1, .sub1, .stat1 { animation: sc1view 24s linear infinite }
+    @keyframes sc1view {
+      0%, 48.5%   { opacity: 1; visibility: visible }
+      49.5%, 99.5%{ opacity: 0; visibility: hidden }
+      100%        { opacity: 1; visibility: visible }
+    }
+
+    .sc2, .tag2, .sub2, .stat2 { animation: sc2view 24s linear infinite }
+    @keyframes sc2view {
+      0%, 49.5%   { opacity: 0; visibility: hidden }
+      50.5%, 98.5%{ opacity: 1; visibility: visible }
+      99.5%, 100% { opacity: 0; visibility: hidden }
+    }
+
+    /* ================= SCENE 1 (ABOUT ME: 0s - 12s) ================= */
+    .k1 { animation: k1 24s linear infinite }
+    @keyframes k1 {
+      0%, 1.67%      { width: 0; animation-timing-function: steps(25, end) }
+      7.5%, 48.5%    { width: 210px }
+      49.5%, 100%    { width: 0 }
+    }
+
+    .k2 { animation: k2 24s linear infinite }
+    @keyframes k2 {
+      0%, 15.0%      { width: 0; animation-timing-function: steps(26, end) }
+      20.83%, 48.5%  { width: 218px }
+      49.5%, 100%    { width: 0 }
+    }
+
+    .k3 { animation: k3 24s linear infinite }
+    @keyframes k3 {
+      0%, 28.33%     { width: 0; animation-timing-function: steps(27, end) }
+      34.17%, 48.5%  { width: 226px }
+      49.5%, 100%    { width: 0 }
+    }
+
+    .p1 { animation: p1 24s linear infinite }
+    @keyframes p1 { 0%, 1.25% { opacity: 0 } 1.3%, 48.5% { opacity: 1 } 49.5%, 100% { opacity: 0 } }
+    .p2 { animation: p2 24s linear infinite }
+    @keyframes p2 { 0%, 14.1% { opacity: 0 } 14.2%, 48.5% { opacity: 1 } 49.5%, 100% { opacity: 0 } }
+    .p3 { animation: p3 24s linear infinite }
+    @keyframes p3 { 0%, 27.4% { opacity: 0 } 27.5%, 48.5% { opacity: 1 } 49.5%, 100% { opacity: 0 } }
+    .p4 { animation: p4 24s linear infinite }
+    @keyframes p4 { 0%, 40.7% { opacity: 0 } 40.8%, 48.5% { opacity: 1 } 49.5%, 100% { opacity: 0 } }
+
+    .o1 { animation: o1 24s linear infinite }
+    @keyframes o1 { 0%, 8.0% { opacity: 0; transform: translateY(4px) } 8.8%, 48.5% { opacity: 1; transform: translateY(0) } 49.5%, 100% { opacity: 0 } }
+    .o2 { animation: o2 24s linear infinite }
+    @keyframes o2 { 0%, 21.2%{ opacity: 0; transform: translateY(4px) } 22.0%, 48.5% { opacity: 1; transform: translateY(0) } 49.5%, 100% { opacity: 0 } }
+    .o3 { animation: o3 24s linear infinite }
+    @keyframes o3 { 0%, 34.5%{ opacity: 0; transform: translateY(4px) } 35.3%, 48.5% { opacity: 1; transform: translateY(0) } 49.5%, 100% { opacity: 0 } }
+
+    .cw1 { animation: cw1 24s linear infinite }
+    @keyframes cw1 { 0%, 1.6% { opacity: 0 } 1.67%, 48.5% { opacity: 1 } 49.5%, 100% { opacity: 0 } }
+    .cm1 { animation: cm1 24s linear infinite }
+    @keyframes cm1 {
+      0%         { transform: translate(0, 0);         animation-timing-function: steps(1, end) }
+      1.67%      { transform: translate(0, 0);         animation-timing-function: steps(25, end) }
+      7.5%       { transform: translate(210px, 0);     animation-timing-function: steps(1, end) }
+      14.17%     { transform: translate(0, 76px);      animation-timing-function: steps(26, end) }
+      20.83%     { transform: translate(218px, 76px);  animation-timing-function: steps(1, end) }
+      27.5%      { transform: translate(0, 132px);     animation-timing-function: steps(27, end) }
+      34.17%     { transform: translate(226px, 132px); animation-timing-function: steps(1, end) }
+      40.83%     { transform: translate(0, 188px);     animation-timing-function: steps(1, end) }
+      48.5%      { transform: translate(0, 188px); }
+      49.5%, 100%{ transform: translate(0, 0); }
+    }
+
+    /* ================= SCENE 2 (OPEN SOURCE: 12s - 24s) ================= */
+    .k4 { animation: k4 24s linear infinite }
+    @keyframes k4 {
+      0%, 51.67%     { width: 0; animation-timing-function: steps(36, end) }
+      57.5%, 98.5%   { width: 302px }
+      99.5%, 100%    { width: 0 }
+    }
+
+    .k5 { animation: k5 24s linear infinite }
+    @keyframes k5 {
+      0%, 65.0%      { width: 0; animation-timing-function: steps(34, end) }
+      70.83%, 98.5%  { width: 286px }
+      99.5%, 100%    { width: 0 }
+    }
+
+    .k6 { animation: k6 24s linear infinite }
+    @keyframes k6 {
+      0%, 78.33%     { width: 0; animation-timing-function: steps(35, end) }
+      84.17%, 98.5%  { width: 294px }
+      99.5%, 100%    { width: 0 }
+    }
+
+    .p5 { animation: p5 24s linear infinite }
+    @keyframes p5 { 0%, 51.2% { opacity: 0 } 51.3%, 98.5% { opacity: 1 } 99.5%, 100% { opacity: 0 } }
+    .p6 { animation: p6 24s linear infinite }
+    @keyframes p6 { 0%, 64.1% { opacity: 0 } 64.2%, 98.5% { opacity: 1 } 99.5%, 100% { opacity: 0 } }
+    .p7 { animation: p7 24s linear infinite }
+    @keyframes p7 { 0%, 77.4% { opacity: 0 } 77.5%, 98.5% { opacity: 1 } 99.5%, 100% { opacity: 0 } }
+    .p8 { animation: p8 24s linear infinite }
+    @keyframes p8 { 0%, 90.7% { opacity: 0 } 90.8%, 98.5% { opacity: 1 } 99.5%, 100% { opacity: 0 } }
+
+    .o4 { animation: o4 24s linear infinite }
+    @keyframes o4 { 0%, 58.0% { opacity: 0; transform: translateY(4px) } 58.8%, 98.5% { opacity: 1; transform: translateY(0) } 99.5%, 100% { opacity: 0 } }
+    .o5 { animation: o5 24s linear infinite }
+    @keyframes o5 { 0%, 71.2% { opacity: 0; transform: translateY(4px) } 72.0%, 98.5% { opacity: 1; transform: translateY(0) } 99.5%, 100% { opacity: 0 } }
+    .o6 { animation: o6 24s linear infinite }
+    @keyframes o6 { 0%, 84.5% { opacity: 0; transform: translateY(4px) } 85.3%, 98.5% { opacity: 1; transform: translateY(0) } 99.5%, 100% { opacity: 0 } }
+
+    .cw2 { animation: cw2 24s linear infinite }
+    @keyframes cw2 { 0%, 51.6% { opacity: 0 } 51.67%, 98.5% { opacity: 1 } 99.5%, 100% { opacity: 0 } }
+    .cm2 { animation: cm2 24s linear infinite }
+    @keyframes cm2 {
+      0%, 51.6%  { transform: translate(0, 0);         animation-timing-function: steps(1, end) }
+      51.67%     { transform: translate(0, 0);         animation-timing-function: steps(36, end) }
+      57.5%      { transform: translate(302px, 0);     animation-timing-function: steps(1, end) }
+      64.17%     { transform: translate(0, 76px);      animation-timing-function: steps(34, end) }
+      70.83%     { transform: translate(286px, 76px);  animation-timing-function: steps(1, end) }
+      77.5%      { transform: translate(0, 132px);     animation-timing-function: steps(35, end) }
+      84.17%     { transform: translate(294px, 132px); animation-timing-function: steps(1, end) }
+      90.83%     { transform: translate(0, 188px);     animation-timing-function: steps(1, end) }
+      98.5%      { transform: translate(0, 188px); }
+      99.5%, 100%{ transform: translate(0, 0); }
+    }
+
+    .blink { animation: blink 1s steps(1, end) infinite }
+    @keyframes blink { 0%, 50% { opacity: 1 } 51%, 100% { opacity: 0 } }
+
+    .live { animation: pulse 2s ease-in-out infinite }
+    @keyframes pulse { 0%, 100% { opacity: .35; r: 3.5px } 50% { opacity: 1; r: 4.5px } }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important }
+      .sc2, .tag2, .sub2, .stat2 { display: none }
+      .sc1, .tag1, .sub1, .stat1 { opacity: 1; visibility: visible }
+      .k1 { width: 210px } .k2 { width: 218px } .k3 { width: 226px }
+      .p1, .p2, .p3, .p4, .o1, .o2, .o3, .cw1 { opacity: 1 }
+      .cm1 { transform: translate(0, 188px) }
+    }
+  ]]></style>
+
+  <defs>
+    <clipPath id="card"><rect width="900" height="480" rx="14"/></clipPath>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><circle class="gdot" cx="1" cy="1" r="1"/></pattern>
+    <clipPath id="nameclip"><text class="name" x="32" y="130">Meet Modi</text></clipPath>
+    <linearGradient id="shineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop class="sA" offset="0"   stop-color="#58a6ff" stop-opacity="0"/>
+      <stop class="sB" offset=".45" stop-color="#58a6ff" stop-opacity=".55"/>
+      <stop class="sC" offset=".5"  stop-color="#79c0ff" stop-opacity=".9"/>
+      <stop class="sD" offset=".55" stop-color="#58a6ff" stop-opacity=".55"/>
+      <stop class="sE" offset="1"   stop-color="#58a6ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect class="bg" width="900" height="480" rx="14"/>
+  <g clip-path="url(#card)">
+    <g class="drift"><rect x="-52" y="-52" width="1004" height="584" fill="url(#grid)" opacity=".55"/></g>
+    <rect class="trace" x="1" y="1" width="898" height="478" rx="14"/>
+  </g>
+  <rect class="frame" x=".5" y=".5" width="899" height="479" rx="14"/>
+
+  <!-- Window Chrome Header -->
+  <g class="boot">
+    <circle class="dot" cx="28" cy="30" r="5.5"/>
+    <circle class="dot" cx="47" cy="30" r="5.5"/>
+    <circle class="dot" cx="66" cy="30" r="5.5"/>
+    <text class="tiny" x="88" y="34">~/Meet · zsh</text>
+    <g>
+      <text class="tiny tag1" x="868" y="34" text-anchor="end">identity</text>
+      <text class="tiny tag2" x="868" y="34" text-anchor="end">contributions</text>
+    </g>
+    <line class="rule" x1="0" y1="56" x2="900" y2="56"/>
+  </g>
+
+  <!-- Name and Dynamic Subtitle -->
+  <text class="name" x="32" y="130">Meet Modi</text>
+  <g clip-path="url(#nameclip)"><g class="shine"><rect x="0" y="88" width="240" height="56" fill="url(#shineGrad)"/></g></g>
+  <g>
+    <text class="sub sub1" x="34" y="156">b.tech mathematics &amp; computing @ iiitm gwalior · ml · specialist @ codeforces</text>
+    <text class="sub sub2" x="34" y="156">cloud-native · kubeflow contributor · distributed systems</text>
+  </g>
+
+  <line class="rule" x1="32" y1="178" x2="868" y2="178"/>
+  <g clip-path="url(#card)"><rect class="sweepbar" x="32" y="177" width="120" height="2"/></g>
+
+  <!-- ==================== SCENE 1 : ABOUT ME & PROJECTS ==================== -->
+  <g class="sc1">
+    <defs>
+      <clipPath id="c1"><rect class="k1" x="56" y="194" height="20" width="0"/></clipPath>
+      <clipPath id="c2"><rect class="k2" x="56" y="270" height="20" width="0"/></clipPath>
+      <clipPath id="c3"><rect class="k3" x="56" y="326" height="20" width="0"/></clipPath>
+    </defs>
+
+    <!-- Command 1: Bio and Academic Info -->
+    <text class="pr p1" x="34" y="208">$</text>
+    <g clip-path="url(#c1)"><text class="cmd" x="56" y="208" textLength="210" lengthAdjust="spacingAndGlyphs">fastfetch --user meetcodz</text></g>
+    <g class="o1">
+      <text class="out" x="56" y="230" textLength="535" lengthAdjust="spacingAndGlyphs"><tspan class="acc">host</tspan>  ABV-IIITM Gwalior · B.Tech Mathematics &amp; Computing (9.46 CGPA)</text>
+      <text class="out" x="56" y="250" textLength="530" lengthAdjust="spacingAndGlyphs"><tspan class="ok">rank</tspan>  Specialist @ Codeforces (1400 rating) · 500+ DSA problems solved</text>
+    </g>
+
+    <!-- Command 2: Flagship ML Project - Vakya AI -->
+    <text class="pr p2" x="34" y="284">$</text>
+    <g clip-path="url(#c2)"><text class="cmd" x="56" y="284" textLength="218" lengthAdjust="spacingAndGlyphs">python -m vakya_ai --serve</text></g>
+    <g class="o2">
+      <text class="out" x="56" y="306" textLength="558" lengthAdjust="spacingAndGlyphs"><tspan class="acc">ready</tspan> voice-code IDE · faster-whisper + SentenceTransformers + Gemini</text>
+    </g>
+
+    <!-- Command 3: Contest Winner - DEVKRITI -->
+    <text class="pr p3" x="34" y="340">$</text>
+    <g clip-path="url(#c3)"><text class="cmd" x="56" y="340" textLength="226" lengthAdjust="spacingAndGlyphs">./devkriti-eval --model nlp</text></g>
+    <g class="o3">
+      <text class="out" x="56" y="362" textLength="540" lengthAdjust="spacingAndGlyphs"><tspan class="ok">win</tspan>   1st Place DEVKRITI '26 · NLP fake news detection &amp; inference pipeline</text>
+    </g>
+
+    <!-- Prompt 4 and Caret for Scene 1 -->
+    <text class="pr p4" x="34" y="396">$</text>
+    <g class="cw1"><g class="cm1"><rect class="caret blink" x="56" y="194" width="9" height="16" rx="1"/></g></g>
+  </g>
+
+  <!-- ==================== SCENE 2 : OPEN SOURCE CONTRIBUTIONS ==================== -->
+  <g class="sc2">
+    <defs>
+      <clipPath id="c4"><rect class="k4" x="56" y="194" height="20" width="0"/></clipPath>
+      <clipPath id="c5"><rect class="k5" x="56" y="270" height="20" width="0"/></clipPath>
+      <clipPath id="c6"><rect class="k6" x="56" y="326" height="20" width="0"/></clipPath>
+    </defs>
+
+    <!-- Command 4: Kubeflow Pipelines -->
+    <text class="pr p5" x="34" y="208">$</text>
+    <g clip-path="url(#c4)"><text class="cmd" x="56" y="208" textLength="302" lengthAdjust="spacingAndGlyphs">gh pr list --repo kubeflow/pipelines</text></g>
+    <g class="o4">
+      <text class="out" x="56" y="230" textLength="510" lengthAdjust="spacingAndGlyphs"><tspan class="ok">ok</tspan>    3 PRs merged · backend tracing · pagination fix · stream sync</text>
+    </g>
+
+    <!-- Command 5: Kubeflow Trainer -->
+    <text class="pr p6" x="34" y="284">$</text>
+    <g clip-path="url(#c5)"><text class="cmd" x="56" y="284" textLength="286" lengthAdjust="spacingAndGlyphs">gh pr list --repo kubeflow/trainer</text></g>
+    <g class="o5">
+      <text class="out" x="56" y="306" textLength="495" lengthAdjust="spacingAndGlyphs"><tspan class="ok">ok</tspan>    2 PRs merged · webhook panic fix · OptimizationJob key dedup</text>
+    </g>
+
+    <!-- Command 6: Kubernetes Pods -->
+    <text class="pr p7" x="34" y="340">$</text>
+    <g clip-path="url(#c6)"><text class="cmd" x="56" y="340" textLength="294" lengthAdjust="spacingAndGlyphs">kubectl get pods -n kubeflow-system</text></g>
+    <g class="o6">
+      <text class="out" x="56" y="362" textLength="518" lengthAdjust="spacingAndGlyphs"><tspan class="acc">ready</tspan> trainer-controller-manager  1/1 Running  0 restarts  99.9% uptime</text>
+    </g>
+
+    <!-- Prompt 8 and Caret for Scene 2 -->
+    <text class="pr p8" x="34" y="396">$</text>
+    <g class="cw2"><g class="cm2"><rect class="caret blink" x="56" y="194" width="9" height="16" rx="1"/></g></g>
+  </g>
+
+  <!-- Persistent Bottom Status Strip with Dynamic Content -->
+  <g transform="translate(32,456)">
+    <g class="boot">
+      <circle class="live" cx="4" cy="-4" r="4" fill="#3fb950"/>
+      <g>
+        <text class="tiny stat1" x="20" y="0">football ⚽ · marathoner 🏃 · go · python · c++ · pytorch · linux</text>
+        <text class="tiny stat2" x="20" y="0">kubeflow (cncf) · pipelines · trainer · kubernetes · docker · go</text>
+      </g>
+      <text class="tiny" x="836" y="0" text-anchor="end">github.com/meetcodz</text>
+    </g>
+  </g>
+</svg>
