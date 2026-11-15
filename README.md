@@ -1,92 +1,86 @@
 <div align="center">
 
-# Meet Modi
+<!-- 2-Scene Animated Developer Terminal -->
+<img src="https://raw.githubusercontent.com/meetcodz/meetcodz/main/assets/header.svg" width="100%" alt="Meet Modi - Developer Terminal" />
 
-### IT Undergrad @ ABV-IIITM Gwalior
+<br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1500&color=7AA2F7&center=true&vCenter=true&width=650&lines=Building+Cloud-Native+Systems;Kubeflow+Open+Source+Contributor;Competitive+Programmer;Distributed+Systems+Enthusiast;Marathoner" alt="Typing SVG" />
-
-<br/><br/>
-
+<!-- Matching Terminal Navigation Pills -->
 <a href="https://github.com/meetcodz">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/GitHub-0d1117?style=flat-square&logo=github&logoColor=white&labelColor=0d1117" alt="GitHub" />
 </a>
-<a href="https://linkedin.com/in/YOUR_LINKEDIN">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+<a href="https://www.linkedin.com/in/meet-modi-a80a69385/">
+  <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=flat-square&logo=linkedin&logoColor=white&labelColor=0d1117" alt="LinkedIn" />
 </a>
 <a href="mailto:YOUR_EMAIL">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-</a>
-<a href="https://leetcode.com/YOUR_LEETCODE">
-  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+  <img src="https://img.shields.io/badge/Email-0d1117?style=flat-square&logo=gmail&logoColor=white&labelColor=0d1117" alt="Email" />
 </a>
 <a href="https://codeforces.com/profile/YOUR_CODEFORCES">
-  <img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces" />
+  <img src="https://img.shields.io/badge/Codeforces-0d1117?style=flat-square&logo=codeforces&logoColor=white&labelColor=0d1117" alt="Codeforces" />
+</a>
+<a href="https://leetcode.com/YOUR_LEETCODE">
+  <img src="https://img.shields.io/badge/LeetCode-0d1117?style=flat-square&logo=leetcode&logoColor=white&labelColor=0d1117" alt="LeetCode" />
 </a>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=meetcodz&color=7AA2F7&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
+<img src="https://komarev.com/ghpvc/?username=meetcodz&color=58a6ff&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
 
 </div>
 
 ---
 
-##  About Me
+## 🚀 Open Source Contributions // Kubeflow
 
-- 🎓 **IT Undergraduate** at **ABV-IIITM Gwalior**
-- 🌐 **Open Source Contributor** actively contributing to Cloud-Native AI and Machine Learning infrastructure (**Kubeflow**).
-- 💻 **Core Interests:** Cloud-Native Infrastructure, Distributed Systems, High-Performance Backend Engineering, and Deep Learning.
-- ⚡ **Competitive Programming:** Regular participant in Codeforces, LeetCode, and algorithmic contests.
-- 🎯 **Goal:** Contributing to ecosystem-defining open-source projects.
-- ⚽ **Fun Fact:** Big football enthusiast on and off the pitch.
+```zsh
+meet@cloud-native:~$ gh pr list --repo kubeflow --author meetcodz --state merged
+```
 
----
+### 📦 [kubeflow/pipelines](https://github.com/kubeflow/pipelines) `(branch: master)`
+> *Cloud-Native Machine Learning Workflows orchestration engine (CNCF / Linux Foundation)*
+* `├──` 🟢 **[PR #15506](https://github.com/kubeflow/pipelines/pull/15506)** `[MERGED]` — Enhanced backend API server logging & request tracing
+* `├──` 🟢 **[PR #15507](https://github.com/kubeflow/pipelines/pull/15507)** `[MERGED]` — Resolved pagination stability & boundary cursor handling
+* `└──` 🟢 **[PR #15615](https://github.com/kubeflow/pipelines/pull/15615)** `[MERGED]` — Backend API server stability & log synchronization
 
-##  Featured Open Source Contributions
+<br/>
 
-### [Kubeflow](https://github.com/kubeflow)
-Cloud-Native MLOps Platform (CNCF / Linux Foundation)
-
-#### 🔹 Kubeflow Pipelines
-Repository: [kubeflow/pipelines](https://github.com/kubeflow/pipelines)
-- Enhanced backend API server logging, request tracing, and pagination stability.
-- [PR #15506](https://github.com/kubeflow/pipelines/pull/15506) — Merged
-- [PR #15507](https://github.com/kubeflow/pipelines/pull/15507) — Merged
-- [PR #15615](https://github.com/kubeflow/pipelines/pull/15615) — Merged
-
-#### 🔹 Kubeflow Trainer
-Repository: [kubeflow/trainer](https://github.com/kubeflow/trainer)
-- Discovered and fixed an unrecovered panic in the Workload-Aware Scheduling webhook and builder.
-  - [Issue #4450](https://github.com/kubeflow/trainer/issues/4450)
-  - [PR #4451](https://github.com/kubeflow/trainer/pull/4451)
-- Resolved `OptimizationJob` API server status patch rejection caused by duplicate `listType=map` parameter keys.
-  - [Issue #4452](https://github.com/kubeflow/trainer/issues/4452)
-  - [PR #4453](https://github.com/kubeflow/trainer/pull/4453)
+### 📦 [kubeflow/trainer](https://github.com/kubeflow/trainer) `(branch: master)`
+> *Distributed Model Training & Scheduling Operator for Kubernetes*
+* `├──` 🐛 **[Issue #4450](https://github.com/kubeflow/trainer/issues/4450)** — Unrecovered panic in Workload-Aware Scheduling webhook & builder
+* `│   └──` 🟢 **[PR #4451](https://github.com/kubeflow/trainer/pull/4451)** `[MERGED]` — Resolved panic & added nil-pointer boundary validation
+* `├──` 🐛 **[Issue #4452](https://github.com/kubeflow/trainer/issues/4452)** — OptimizationJob API status patch rejection via duplicate keys
+* `└──` 🟢 **[PR #4453](https://github.com/kubeflow/trainer/pull/4453)** `[MERGED]` — Deduplicated `listType=map` parameter keys in status patch
 
 ---
 
-##  Tech Stack & Tooling
+## 🛠️ Flagship Engineering Projects
+
+* **[Vakya AI](https://github.com/meetcodz)** — Voice-controlled browser IDE. Features Monaco Editor, faster-whisper STT, custom SentenceTransformer intent classification, and FastAPI for real-time diff-based code updates.
+* **[Fake News Detection System](https://github.com/meetcodz)** *(1st Place @ DEVKRITI '26)* — End-to-end NLP preprocessing, feature extraction, and ML classification pipeline with prediction confidence and evidence retrieval.
+
+---
+
+## 💻 Tech Stack & Tooling
 
 <div align="center">
 
 <h4>Languages</h4>
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=cpp,c,python,go,java,ts,js" alt="Programming Languages" /></a>
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=cpp,go,python,c,ts,js" alt="Languages" /></a>
 
 <h4>Cloud & Systems</h4>
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=kubernetes,docker,linux,bash,git,github" alt="Cloud and Systems" /></a>
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=kubernetes,docker,linux,bash,git,github" alt="Systems" /></a>
 
 <h4>Machine Learning & Data</h4>
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=pytorch,tensorflow,scikitlearn,pandas,numpy" alt="Machine Learning and Data" /></a>
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=pytorch,tensorflow,scikitlearn,pandas,numpy" alt="Machine Learning" /></a>
 
 <h4>Databases & Web</h4>
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,react,nodejs,tailwind" alt="Databases and Web" /></a>
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,fastapi,tailwind" alt="Databases and Web" /></a>
 
 </div>
 
 ---
 
-##  Virtual Companion & Commit Garden
+## 🐾 Virtual Companion & Commit Garden
 
 <div align="center">
 
@@ -111,7 +105,7 @@ Repository: [kubeflow/trainer](https://github.com/kubeflow/trainer)
 
 ---
 
-##  GitHub Activity & Analytics
+## 📊 GitHub Activity & Analytics
 
 <div align="center">
 
@@ -128,9 +122,9 @@ Repository: [kubeflow/trainer](https://github.com/kubeflow/trainer)
 
 <div align="center">
 
-###  Let's Connect
+### 💬 Let's Connect
 
-Open to collaborations, open-source contributions, and systems engineering opportunities.
+Open to cloud-native systems engineering, open-source infrastructure, and machine learning collaborations.
 
 **Building. Learning. Contributing.**
 
