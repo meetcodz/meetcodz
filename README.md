@@ -43,14 +43,6 @@ meet@cloud-native:~$ gh pr list --repo kubeflow --author meetcodz --state merged
 * `└──` 🟢 **[PR #15615](https://github.com/kubeflow/pipelines/pull/15615)** `[MERGED]` — Backend API server stability & log synchronization
 
 <br/>
-
-### 📦 [kubeflow/trainer](https://github.com/kubeflow/trainer) `(branch: master)`
-> *Distributed Model Training & Scheduling Operator for Kubernetes*
-* `├──` 🐛 **[Issue #4450](https://github.com/kubeflow/trainer/issues/4450)** — Unrecovered panic in Workload-Aware Scheduling webhook & builder
-* `│   └──` 🟢 **[PR #4451](https://github.com/kubeflow/trainer/pull/4451)** `[MERGED]` — Resolved panic & added nil-pointer boundary validation
-* `├──` 🐛 **[Issue #4452](https://github.com/kubeflow/trainer/issues/4452)** — OptimizationJob API status patch rejection via duplicate keys
-* `└──` 🟢 **[PR #4453](https://github.com/kubeflow/trainer/pull/4453)** `[MERGED]` — Deduplicated `listType=map` parameter keys in status patch
-
 ---
 
 ## 🛠️ Flagship Engineering Projects
